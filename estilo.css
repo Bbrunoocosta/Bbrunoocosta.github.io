@@ -1,0 +1,154 @@
+html body {
+    margin: 0;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    width: 200px;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: -65px;
+}
+.menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0;
+}
+.corfundo{
+    color: white;
+    text-decoration: none;
+}
+li{
+    float: left;
+    padding: 28.5 50 28.5 50;
+    color: white;
+    
+}
+li:hover{
+    background-color: rgba(0, 128, 0, 0.596);
+}
+.imagemfundo{
+    background: url(img/fundo1.jpg);
+    height: 100%;
+    text-align: center;
+    background-size:cover;
+    background-position: center;
+    padding-top: 100px;
+    list-style: none;
+}
+.fundocor{
+    background-color: rgba(0, 0, 0, 0.425);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.titulo{
+    color: white;
+    font-size: 400%;
+    padding: 50px 10px 0px 10px;
+    margin-bottom: 0;
+    margin-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.subtitulo{
+    color: white;
+    font-size: 150%;
+    padding:10px 10px 10px 10px ;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.acao{
+    color: white;
+    border: 1px rgb(255, 255, 255) solid;
+    padding: 15px 15px 15px 15px;
+    margin-top: 20px;
+    border-radius: 15%;
+    background-color: rgba(0, 0, 0, 0.541);
+    font-size: large;
+    font-weight: 900;
+}
+.acao:hover{
+    background-color: rgba(0, 128, 0, 0.596);
+}
+.icone{
+    width: 35%;
+}
+.icone:hover{
+    background-color: rgba(0, 128, 0, 0.596);
+    border-radius: 100%;
+    padding: 10%;
+}
+section{
+    padding: 120px 40px 80px 40px;
+    float: left;
+}
+
+.destaque{
+    background-color: #f1eeee;
+}
+.imgind{
+    width: 70%; 
+    height: 30%;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.dois{
+    width: 40%;
+}
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+.quatro{
+    width: 15%;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+    padding-bottom: 5%;
+}
+footer{
+background-color: rgba(3, 82, 3, 0.404);
+float: left;
+width: 100%;
+}
+@media all and (max-width: 1000px) {
+    .menu{
+        visibility: collapse;
+    }
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin-left: 10%;
+        float: none ;
+        text-align: center;
+    }
+    .logodiv{
+        width: 100%;
+        position:relative;
+        text-align: center;
+    }
+    .logo{
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+    .icone{
+        width: 10%;
+}
