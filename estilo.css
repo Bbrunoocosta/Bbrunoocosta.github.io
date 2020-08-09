@@ -17,7 +17,6 @@ header{
 }
 .menu{
     float: right;
-    margin-right: 5%;
     list-style: none;
     margin-top: 0;
 }
@@ -27,9 +26,8 @@ header{
 }
 li{
     float: left;
-    padding: 28.5 50 28.5 50;
+    padding: 28.5 40 28.5 40;
     color: white;
-    
 }
 li:hover{
     background-color: rgba(0, 128, 0, 0.596);
@@ -52,12 +50,12 @@ li:hover{
 }
 .titulo{
     color: white;
-    font-size: 400%;
     padding: 50px 10px 0px 10px;
     margin-bottom: 0;
     margin-top: 50px;
     padding-left: 20%;
     padding-right: 20%;
+    font-size: 200%;
 }
 .subtitulo{
     color: white;
@@ -94,7 +92,7 @@ section{
 }
 
 .destaque{
-    background-color: #f1eeee;
+    background-color: rgba(0, 128, 0, 0.192);
 }
 .imgind{
     width: 70%; 
@@ -124,13 +122,20 @@ section{
     padding-bottom: 5%;
 }
 footer{
-background-color: rgba(3, 82, 3, 0.404);
+background-color: rgba(0, 128, 0, 0.192);
 float: left;
 width: 100%;
 }
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1020px) {
     .menu{
         visibility: collapse;
+    }
+    .titulo{
+        text-align: center;
+        font-size: 100%;
+    }
+    .subtitulo{
+        font-size: 100%;
     }
     .coluna, .dois, .tres, .quatro{
         display: block;
@@ -150,5 +155,6 @@ width: 100%;
         transform: translateX(-50%);
     }
     .icone{
-        width: 10%;
+        width: 70px;
+    }
 }
