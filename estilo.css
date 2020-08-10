@@ -1,5 +1,6 @@
 html body {
     margin: 0;
+    font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     background-color: rgba(0, 0, 0, 0.952);
@@ -11,14 +12,18 @@ header{
 }
 .logo{
     width: 200px;
-    margin-left: 5%;
     position: absolute;
-    margin-top: -65px;
+    margin-top: -90px;
 }
 .menu{
     float: right;
     list-style: none;
     margin-top: 0;
+}
+.part1{
+    float: left;
+    list-style: none;
+    margin: 0;
 }
 .corfundo{
     color: white;
@@ -32,17 +37,19 @@ li{
 li:hover{
     background-color: rgba(0, 128, 0, 0.596);
 }
+#nocolor:hover{
+    background-color: transparent;
+}
 .imagemfundo{
     background: url(img/fundo1.jpg);
-    height: 100%;
     text-align: center;
     background-size:cover;
     background-position: center;
     padding-top: 100px;
-    list-style: none;
+    height: 100%;
 }
 .fundocor{
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 128, 0, 0.322);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -50,30 +57,30 @@ li:hover{
 }
 .titulo{
     color: white;
-    padding: 50px 10px 0px 10px;
+    padding: 5%  20%  0 20% ;
     margin-bottom: 0;
     margin-top: 50px;
-    padding-left: 20%;
-    padding-right: 20%;
-    font-size: 200%;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
 }
 .subtitulo{
     color: white;
-    font-size: 150%;
-    padding:10px 10px 10px 10px ;
+    padding: 1% 20% 2% 20% ;
     text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    text-shadow: black 2px;
+    text-shadow: 2px 2px black;
+    font-size: 20;
 }
 .acao{
     color: white;
     border: 1px rgb(255, 255, 255) solid;
-    padding: 15px 15px 15px 15px;
+    padding: 1%;
     margin-top: 20px;
-    border-radius: 15%;
-    background-color: rgba(0, 0, 0, 0.541);
-    font-size: large;
-    font-weight: 900;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.322);
+    font-weight: 800;
+    font-size: 20;
+    text-decoration: none;
 }
 .acao:hover{
     background-color: rgba(0, 128, 0, 0.596);
@@ -89,6 +96,10 @@ li:hover{
 section{
     padding: 120px 40px 80px 40px;
     float: left;
+}
+.secao2{
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .destaque{
@@ -108,8 +119,7 @@ section{
     width: 40%;
 }
 .tres{
-    width: 29%;
-    padding: 0 2%;
+    width: 23%;
 }
 .quatro{
     width: 15%;
@@ -119,7 +129,7 @@ section{
 }
 .centralizado{
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 12%;
 }
 footer{
 background-color: rgba(0, 128, 0, 0.192);
@@ -132,10 +142,10 @@ width: 100%;
     }
     .titulo{
         text-align: center;
-        font-size: 100%;
+        font-size: 50;
     }
     .subtitulo{
-        font-size: 100%;
+        font-size: 20;
     }
     .coluna, .dois, .tres, .quatro{
         display: block;
@@ -149,10 +159,6 @@ width: 100%;
         width: 100%;
         position:relative;
         text-align: center;
-    }
-    .logo{
-        margin-left: 0px;
-        transform: translateX(-50%);
     }
     .icone{
         width: 70px;

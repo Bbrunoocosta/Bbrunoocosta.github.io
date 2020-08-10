@@ -1,13 +1,16 @@
 <html>
 <head>
-    <title>Dinâmica Verde</title>
+    <title>Dinâmica Sustentável</title>
+    <link rel="shortcut icon" href="img/navegador-aba.png">
     <link rel="stylesheet" href="estilo.css">
     <meta name="viewport" content="width:device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
         <div class="logodiv">
-            <img class="logo" src="img/logo.png" alt="Logo Dinâmica Verde">
+            <ul class="part1">
+                <li id="nocolor" ><a href="#partone"> <img class="logo" src="img/logo.png" alt="Logo Dinâmica Verde"></a></li>
+            </ul>
         </div>
         <ul class="menu">
             <li><a class="corfundo" href="#projeto">Projeto</a></li>
@@ -18,19 +21,22 @@
         </ul>
     </header>
     <div class="imagemfundo">
+        <div id="partone">
             <h1 class="titulo">
                 A Indústria do aço. O que esperar para o futuro?
             </h1>
             <h2 class="subtitulo">
-                Produzido à partir do ferro, um dos elementos mais abundantes da Terra, o aço é um grande colaborador para o progresso da humanidade, trabalhando em conjunto com todos os outros materiais para promover o crescimento e o desenvolvimento. <br>Ele é a base dos últimos 100 anos de progresso e será igualmente fundamental para enfrentar os desafios dos próximos séculos. Portanto, precisamos buscar meios mais sustentáveis na produção desse metal tão importante.</h2>
-            <a class="acao" href="https://nacoesunidas.org/pos2015/ods9/" target="_blank">Saiba mais</a>
+                Produzido à partir do ferro, um dos elementos mais abundantes da Terra, o aço é um grande colaborador para o progresso da humanidade, trabalhando em conjunto com todos os outros materiais para promover o crescimento e o desenvolvimento. Ele é a base dos últimos 100 anos de progresso e será igualmente fundamental para enfrentar os desafios dos próximos séculos. Portanto, precisamos buscar meios mais sustentáveis na produção desse metal tão importante.
+            </h2>
+            <a class="acao" href="#projeto">Começar</a>
+        </div>
     </div>
     <section id="projeto" >
         <div class="coluna">
-            <iframe width="100%" height="55%" src="https://www.youtube.com/embed/YXtv5mROBzs?controls=0&amp;start=72" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="430px" src="https://www.youtube.com/embed/YXtv5mROBzs?controls=0&amp;start=72" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="coluna dois" >
-        <h2 class="centralizado">
+        <div class="coluna dois">
+        <h2 class="centralizado">   
             Projeto
         </h2>
             <p class="justificado">Os produtos siderúrgicos são vitais para atender às necessidades da sociedade. A produção inteligente, pode oferecer alternativas sustentáveis para constante evolução da humanidade.</p>
@@ -44,7 +50,7 @@
         <div class="coluna quatro centralizado">
         <img class="icone" src="img/growth.svg" alt="crescimento economico"/>
         <h3>Infraestrutura <br> econômica</h3>
-        <p>Estimular o incentivo à processos industriais mais eficazes, responsáveis e sustentáveis, trazendo benefícios econômicos para produtores e infraestrutura consistente.</p>
+        <p class="justificado">Estimular o incentivo à processos industriais mais eficazes, responsáveis e sustentáveis, trazendo benefícios econômicos para produtores e infraestrutura consistente.</p>
         </div>
         <div class="coluna quatro centralizado">
             <img class="icone" src="img/project.svg" alt="indústria"/>
@@ -68,42 +74,60 @@
         <div class="coluna tres centralizado">
             <img class="imgind" src="img/reciclagem.jpg" alt="reciclagem">
             <h3>É reciclável</h3>
-            <p>A indústria siderúrgica não compromete a responsabilidade ambiental. O aço é o material mais reciclado do mundo e 100% reciclável.</p>
+            <p class="justificado">A indústria siderúrgica não compromete a responsabilidade ambiental. O aço é o material mais reciclado do mundo e 100% reciclável.</p>
         </div>
         <div class="coluna tres centralizado">
             <img class="imgind" src="img/img.jpg" alt="Alternativas eficazes">
              <h3>Pode ser aprimorado</h3>
-             <p>A fabricação do aço vem sendo mais sustentável através do avanço tecnológico, tornando sua produção mais eficaz e limpa. À medida que o mundo busca soluções para seus desafios ambientais.</p>
+             <p class="justificado">A fabricação do aço vem sendo mais sustentável através do avanço tecnológico, tornando sua produção mais eficaz e limpa. À medida que o mundo busca soluções para seus desafios ambientais.</p>
         </div>
         <div class="coluna tres centralizado">
             <img class="imgind" src="img/agua.jpg" alt="água">
-            <h3>Reaproveitamento</h3>
-            <p>Cerca de 90% da água utilizada na indústria siderúrgica é limpa, resfriada e devolvida à fonte.</p>
-        </div>
-        </div>
-    </section>
-    <section id="melhorias" class="destaque">
-        <h2 class="centralizado">O que deve ser melhorado</h2>
+            <h3>A água volta à origem</h3>
+            <p class="justificado">Cerca de 90% da água utilizada na indústria siderúrgica é limpa, resfriada e devolvida à fonte.</p>
+        </div> 
+        <section class="secao2">
         <div class="coluna tres centralizado">
             <img class="imgind" src="img/infraestrutura.jpg" alt="infraestrutura">
             <h3> Sua Impotância</h3>
-            <p>O aço é usado em todas as indústrias importantes como energia, construção, automotivo e transporte, infraestrutura, embalagens e máquinas.</p>
+            <p class="justificado">O aço é usado em todas as indústrias importantes como energia, construção, automotivo e transporte, infraestrutura, embalagens e máquinas.</p>
         </div>
         <div class="coluna tres centralizado">
             <img class="imgind" src="img/limpas.jpg" alt="energia limpa">
             <h3>Energias limpas</h3>
-            <p>O aço é o principal material utilizado na entrega de energia renovável: solar, maré, geotérmica e eólica.</p>
+            <p class="justificado" >O aço é o principal material utilizado na entrega de energia renovável: solar, maré, geotérmica e eólica.</p>
         </div>
         <div class="coluna tres centralizado">
             <img class="imgind" src="img/green.jpg" alt="green">
-             <h3>Mais eficiência ao longo do tempo</h3>
-             <p>A energia usada para produzir uma tonelada de aço foi reduzida em 61% nos últimos 50 anos, além de utilizar como alternativa a produção de energia limpa.</p>
+             <h3>Reaproveitamento</h3>
+             <p class="justificado" >O processo de produção do aço recupera o que seria resíduo no ambiente e evita novas minerações e outros impactos decorrente da extração do ferro.</p>
+        </div>
+        </section>
+    </section>
+    <section id="melhorias" class="destaque">
+        <h2 class="centralizado">O que deve ser melhorado</h2>
+        <p>A maior parte dos impactos negativos na produção do Aço, estão relacionados ao processo de extração da matéria prima (o ferro), por isso é tão importante a reciclagem do aço e conscientizar e lutar em prol de uma causa é uma das ferramentas capazes de trazer incentivos e significativas mudanças neste setor. </p>
+        <div class="coluna tres centralizado">
+            <img class="imgind" src="img/rejeitos.jpg" alt="rejeitos">
+            <h3>Impactos socioambientais</h3>
+            <p class="justificado" >O processo de obtenção do ferro, material utilizado para produzir o aço gera rejeitos que causam impactos socioambientais significativos.</p>
+        </div>
+        <div class="coluna tres centralizado">
+            <img class="imgind" src="img/vida.jpg" alt="peixe morto">
+            <h3>Os rejeitos</h3>
+            <p  class="justificado"> Os rejeitos gerados quando não são tratados da forma correta, vazam e afetam a vida e solo prejudizando o meio-ambiente.</p>
+        </div>
+        <div class="coluna tres centralizado">
+            <img class="imgind" src="img/ar.jpg" alt="gases poluentes">
+             <h3>Gases Poluentes</h3>
+             <p  class="justificado">Durante a produção do aço, alguns gases são gerados dentre eles, o dióxido de carbono afeta diretamente no efeito estufa. </p>
         </div>
     </section>
     <section id="sobre"> 
         <div class="coluna dois justificado">
             <h2 class="centralizado">Sobre mim</h2>
-            <p>Me chamo bruno tenho 20 anos. Sou estudante de engenharia de Produção na PUC-RJ e estagiário da Argi Telecomunicações, empresa especializada em fabricação de produtos Telecomunicações.</p>
+            <p>Me chamo Bruno, tenho 20 anos. Sou estudante de engenharia de Produção na PUC-RJ e estagiário da Argi Telecomunicações, empresa especializada em fabricação de produtos Telecomunicações.</p>
+                <p>Participar deste projeto me proporcionou conhecimentos super importantes de programação básica, as aulas foram super explicativas, fazendo da compreensão bastante intuitiva.</p>
         </div>
         <div class="coluna dois">
             <img width="100%" src="img/bruno.png" alt="Bruno e descrição">
