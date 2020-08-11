@@ -14,11 +14,12 @@ header{
     width: 200px;
     position: absolute;
     margin-top: -90px;
+    left: 50px;
 }
 .menu{
     float: right;
     list-style: none;
-    margin-top: 0;
+    margin-top: 1;
 }
 .part1{
     float: left;
@@ -31,22 +32,26 @@ header{
 }
 li{
     float: left;
-    padding: 28.5 40 28.5 40;
+    padding: 28 15 28 15;
     color: white;
+    font-size: 15;
+    font-weight: bold;
 }
 li:hover{
     background-color: rgba(0, 128, 0, 0.596);
 }
 #nocolor:hover{
     background-color: transparent;
+    border: 0px hidden transparent;
 }
 .imagemfundo{
-    background: url(img/fundo1.jpg);
+    background: url(img/back2.jpg);
     text-align: center;
     background-size:cover;
     background-position: center;
     padding-top: 100px;
     height: 100%;
+    width: 100%;
 }
 .fundocor{
     background-color: rgba(0, 128, 0, 0.322);
@@ -67,20 +72,23 @@ li:hover{
     color: white;
     padding: 1% 20% 2% 20% ;
     text-align: center;
-    text-shadow: black 2px;
-    text-shadow: 2px 2px black;
     font-size: 20;
 }
 .acao{
     color: white;
-    border: 1px rgb(255, 255, 255) solid;
+    border: 1px white solid;
     padding: 1%;
     margin-top: 20px;
     border-radius: 5px;
-    background-color: rgba(0, 128, 0, 0.322);
+    background-color: black;
     font-weight: 800;
     font-size: 20;
     text-decoration: none;
+}
+.acao2{
+    color: rgba(0, 128, 0, 0.651);
+    text-align: center;
+
 }
 .acao:hover{
     background-color: rgba(0, 128, 0, 0.596);
@@ -94,16 +102,14 @@ li:hover{
     padding: 10%;
 }
 section{
-    padding: 120px 40px 80px 40px;
+    padding: 85px 40px 80px 40px;
     float: left;
 }
-.secao2{
-    padding-top: 0;
-    padding-bottom: 0;
+.explicacao{
+    margin-bottom: 90px;
 }
-
 .destaque{
-    background-color: rgba(0, 128, 0, 0.192);
+    background-color: rgba(61, 105, 61, 0.075);
 }
 .imgind{
     width: 70%; 
@@ -129,10 +135,11 @@ section{
 }
 .centralizado{
     text-align: center;
-    padding-bottom: 12%;
+    padding-bottom: 3%;
 }
 footer{
-background-color: rgba(0, 128, 0, 0.192);
+background-color: black;
+color: white;
 float: left;
 width: 100%;
 }
@@ -142,10 +149,10 @@ width: 100%;
     }
     .titulo{
         text-align: center;
-        font-size: 50;
+        font-size: 100%;
     }
     .subtitulo{
-        font-size: 20;
+        font-size: 100%;
     }
     .coluna, .dois, .tres, .quatro{
         display: block;
@@ -155,9 +162,13 @@ width: 100%;
         float: none ;
         text-align: center;
     }
+    .logo{
+        transform: translatex(50%);
+        left: 15;
+    }
     .logodiv{
         width: 100%;
-        position:relative;
+        position: relative;
         text-align: center;
     }
     .icone{
